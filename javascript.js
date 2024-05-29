@@ -62,6 +62,7 @@ function playGame(){
             computerScore = 0;
             hscore.textContent = "Your Score: ";
             csore.textContent = "Computer Score: ";
+            results.textContent = "";
         }
         if(humanScore < 5 && computerScore == 5){
             const results = document.querySelector("#results");
@@ -76,6 +77,7 @@ function playGame(){
             computerScore = 0;
             hscore.textContent = "Your Score: ";
             csore.textContent = "Computer Score: ";
+            results.textContent = "";
         }
     }
 
