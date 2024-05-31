@@ -60,9 +60,8 @@ function playGame(){
 
             humanScore = 0;
             computerScore = 0;
-            hscore.textContent = "Your Score: ";
-            csore.textContent = "Computer Score: ";
-            results.textContent = "";
+            // hscore.textContent = "Your Score: ";
+            // csore.textContent = "Computer Score: ";
         }
         if(humanScore < 5 && computerScore == 5){
             const results = document.querySelector("#results");
@@ -75,9 +74,9 @@ function playGame(){
 
             humanScore = 0;
             computerScore = 0;
-            hscore.textContent = "Your Score: ";
-            csore.textContent = "Computer Score: ";
-            results.textContent = "";
+            // hscore.textContent = "Your Score: ";
+            // csore.textContent = "Computer Score: ";
+            
         }
     }
 
